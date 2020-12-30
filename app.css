@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: maroon;
+ margin: 1rem;
+  
+}
+
+h1 {
+  font-family: cursive;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  
+}
+
+img {
+  border: 1px solid white;
+  display: float;
+  float: right;
+  height: 400px;
+  width: 60%;
+}
+
+
+select {
+  border: 1px solid white;
+  margin: 2rem;
+  padding: 5rem 20rem;    
+  
+     
+ }
+
+@keyframes spin {
+  to {
+    transform: rotateZ(360deg)
+}
+
+}
+
+.spinner {
+  font-size: 50px;
+  text-align: center;
+  animation: 2s spin linear infinte;
+  display: none;
+
+}
+
+.dog-img-show { /* must have between spinner and show in order to show */
+  display: block;
+
+}
+
+.show {
+  display: block;
+}

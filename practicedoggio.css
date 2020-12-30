@@ -1,0 +1,62 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    margin: 1rem;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+}
+img {
+    border: 1px solid white;
+    display: float;
+    float: right;
+    
+}
+
+select {
+ border: 1px solid green;
+ margin: 2rem;
+ padding: 1rem;    
+    
+}
+
+@keyframes spin {
+    to {
+        transform: rotateZ(360deg)
+
+ }
+}
+
+ .spinner {
+        font-size: 50px;
+        text-align: center;
+        animation: 2s spin linear infinite;
+        display: none;
+
+    }
+
+.dog-img {
+        display: block;
+
+    }
+.show {
+    
+        display: block;
+    }
+
+    
